@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NguyenThanhDat.master.cs" Inherits="NguyenThanhDat_CuoiKy.NguyenThanhDat" %>
+
+<%@ Register Src="~/ucHeader.ascx" TagPrefix="uc1" TagName="ucHeader" %>
+<%@ Register Src="~/ucfooter.ascx" TagPrefix="uc1" TagName="ucfooter" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <!-- Title -->
+    <title>Hệ Thống Giao Hàng Nhanh B.Ship</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/Logo/Logo.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    
+    <!-- Custom CSS -->
+    
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc1:ucHeader runat="server" ID="ucHeader" />
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <uc1:ucfooter runat="server" id="ucfooter" />
+    </form>
+     <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
+</html>

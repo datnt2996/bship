@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{08B943FE-FACB-4EE0-A980-41D1DC8C109A}|">
+  <MonoDevelop.Ide.ItemProperties.NguyenThanhDat__CuoiKy PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NguyenThanhDat_CuoiKy" expanded="True">
+            <Node name="NguyenThanhDat_CuoiKy" expanded="True">
+              <Node name="Default.aspx" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
